@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aidify</title>
+    <link rel="icon" type="image/x-icon" href="images/FaviconA.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+    <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ef7a05f58b.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div class="navbar">
+        <a href="index.html"><img class="logo" src="./images/logo2.png" alt="Aidify Logo"></a>
+        <!-- <div class="logo">Aidify</div> -->
+        <div class="menu-icon" onclick="toggleMobileNav()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav>
+            <b><a href="index.html">HOME</a></b>
+            <a href="about.html">OUR STORY</a>
+            <a href="#contact">CONTACT US</a>
+            <a href="https://chromewebstore.google.com/detail/aidify/odaipdgfpakepciknhkgffehcioidecj?pli=1" target="_blank" rel="noopener noreferrer"><button class="contact-btn">Install Now</button></a>
+        </nav>
+    </div>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Verify with Aidify</h1>
+            <p>Aidify is a free typing analytics tool that allows teachers to evaluate students on their writing process, not
+                just on their final document.</p>
+            <a href="https://chromewebstore.google.com/detail/aidify/odaipdgfpakepciknhkgffehcioidecj?pli=1" target="_blank" rel="noopener noreferrer"><button
+                    class="waitlist-btn">Install Aidify</button></a>
+        </div>
+        <div class="hero-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/J2ELU75IONo?si=C-oMAe3QP9Zpd6DI" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <section id="purpose" class="values-section">
+        <div class="values-content">
+            <div class="values-text">
+                <h3>OUR PURPOSE</h3>
+                <h1>No more guesswork.<br>Measure student effort.</h1>
+                <p class="additional-info">Through a simple Chrome extension, Aidify allows teachers to generate a
+                    report to evaluate student work habits, thinking process, collaboration and effort.</p>
+            </div>
+            <div class="values-grid">
+                <div class="grid-item">
+                    <h2>IMPROVE STUDENT<br>WORK HABITS</h2>
+                    <p>• Check student progress and time management</p>
+                    <p>• See the time and duration that students are working on the assignment</p>
+                    
+                </div>
+                <div class="grid-item">
+                    <h2>SIMPLE, USER FRIENDLY</h2>
+                    <p>• Generates a graphical report with summary and stats</p>
+                    <p>• Provides a video playback showing all student edits with timestamps</p>
+                    <p>• No installation on student computer required <span class="tooltip"><b>ⓘ</b>
+                            <span class="tooltiptext">Extension is installed once on teacher's computer. Aidify can be used on any Google Docs shared with the teacher. </span>
+                          </span>
+                          
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <h2>GROUP WORK STATS</h2>
+                    <p>• View individual contributions on group projects</p>
+                    <p>• Easily see the effort each student put on the assignment</p>
+                </div>
+                <div class="grid-item">
+                    <h2>COMBAT AI PLAGIARISM</h2>
+                    <p>• Track revision count and history</p>
+                    <p>• Identify text copied from an external source and pasted in the document</p>
+                    <p>• Stop false accusations of AI plagiarism</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="our-team" class="team-section">
+        <div class="team-content">
+            <div class="team-image">
+                <img src="images/teamPhoto.jpg" alt="Image of us">
+            </div>
+            <div class="team-info">
+                <h2>About Us</h2>
+                <h4>We are two highschool siblings passionate about science and technology. We want to help students and
+                    teachers
+                    adapt to a world with AI.</h4>
+                <b class="names">Nico (Charlotte) To</b>
+                <p><a class="linkedin" href="https://www.linkedin.com/in/nico-to/"
+                        target="_blank">https://www.linkedin.com/in/nico-to/</a></p>
+                <b class="names">Edlyn To</b>
+                <p><a class="linkedin" href="https://www.linkedin.com/in/edlyn-to/"
+                        target="_blank">https://www.linkedin.com/in/edlyn-to/</a></p>
+                <a href="about.html"><button class="story-btn">Our Story</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="articles" class="featured-articles">
+        <h2>Featured Articles</h2>
+        <div class="logos">
+            <a href="https://dmz.torontomu.ca/basecamp-2023-unveiling-this-years-winners/" target="_blank">
+                <img src="./images/DMZ_logoBlack.png" alt="DMZ Logo">
+            </a>
+            <!-- <a href="https://link-to-article-2.com" target="_blank">
+            <img src="path-to-logo-2.png" alt="Logo 2">
+        </a>
+        <a href="https://link-to-article-3.com" target="_blank">
+            <img src="path-to-logo-3.png" alt="Logo 3">
+        </a> -->
+        </div>
+    </section>  
+
+    <section id="contact" class="contact-form">
+        <div>
+            <h1>Contact Us</h1>
+            <p>info@aidify.ca<br>
+            </p>
+            <form id="contact-form">
+                <!-- Name -->
+                <label for="user_name">Name</label>
+                <input type="text" id="user_name" name="user_name" placeholder="Your Name..." required />
+                <!-- Email -->
+                <label for="user_email">Email</label>
+                <input type="email" id="user_email" name="user_email" placeholder="example@gmail.com" required />
+                <!-- Message -->
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Your message..." required></textarea>
+                <!-- Submit Button -->
+                <button type="submit" class="submit-btn">
+                    Send
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+    </footer>
+
+    <!-- For the navbar hamburger on mobile view -->
+    <script>
+        function toggleMobileNav() {
+            const nav = document.querySelector('.navbar nav');
+            nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
+</body>
+</html>
